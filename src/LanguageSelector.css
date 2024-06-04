@@ -1,0 +1,40 @@
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .languageselector-head{
+    color: rgb(213, 26, 26);
+  }
+  .Overlay {
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .language-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .language-buttons button {
+    background-color: #005f7f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .language-buttons button:hover {
+    background-color: #004050;
+  }
+  

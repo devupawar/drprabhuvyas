@@ -1,0 +1,139 @@
+@keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  
+  .treatment {
+    font-family: Arial, sans-serif;
+    color: rgb(18, 87, 147);
+  }  
+  
+  .treatment-main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .treatment-head {
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1vw;
+    animation: zoomIn 2s infinite;
+  }
+  
+  .treatment-para {
+    font-size: 1.5rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: #595757;
+  }
+  
+  .treatment-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 3vh;
+  }
+  
+  .treatment-card {
+    width: 30vw;
+    border: 0.5vw solid #0c8095;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .treatment-img {
+    width: 100%;
+    height: auto;
+    padding: 1vw;
+  }
+  
+  .treatment-name {
+    padding: 10px;
+    color: #595757;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .video-section {
+    background-color: rgb(14, 94, 185); /* Blue background */
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .video-section-head {
+    margin-bottom: 2vw;
+    font-weight: bold;
+}
+  
+  .video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video-card {
+    width: 30vw;
+  }
+  
+  /* Media Query for screens 991px and smaller */
+  @media (max-width: 991px) {
+    .treatment-head {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 1vw;
+        animation: zoomIn 2s infinite;
+      }
+      
+    .treatment-para {
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 0.7rem;
+    }
+    
+    .treatment-card {
+      width: 80vw;
+      border: 0.5vh solid #13489d !important;
+    }
+  
+    .treatment-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .video-section {
+      background-color: rgb(14, 94, 185); /* Blue background */
+      color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    .video-section-head {
+      margin-bottom: 2vw;
+      font-weight: bold;
+      font-size: 1rem;
+      text-shadow: 4px 4px rgba(0, 0, 0, 0.353);
+  }
+    
+    .video-grid {
+      display: flex;
+      justify-content: column;
+     
+      
+    }
+    
+    .video-card {
+      width: 35vh;
+    }
+  }
+  
